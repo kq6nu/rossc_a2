@@ -1,0 +1,814 @@
+.
+├── beginner_tutorials
+│   ├── CMakeLists.txt
+│   ├── include
+│   │   └── beginner_tutorials
+│   ├── package.xml
+│   └── src
+├── buoyancy_gazebo_plugin
+│   ├── CMakeLists.txt
+│   ├── include
+│   │   └── buoyancy_gazebo_plugin
+│   │       ├── buoyancy_gazebo_plugin.h
+│   │       └── buoyancy_gazebo_plugin.h~
+│   ├── LICENSE
+│   ├── mainpage.dox
+│   ├── package.xml
+│   ├── README.md
+│   ├── rosdoc.yaml
+│   └── src
+│       ├── buoyancy_gazebo_plugin.cpp
+│       └── buoyancy_gazebo_plugin.cpp~
+├── CMakeLists.txt -> /opt/ros/indigo/share/catkin/cmake/toplevel.cmake
+├── dynamic_reconfigure
+│   ├── cfg
+│   │   └── Test.cfg
+│   ├── CHANGELOG.rst
+│   ├── cmake
+│   │   ├── cfgbuild.cmake
+│   │   ├── dynamic_reconfigure
+│   │   │   ├── __init__.py
+│   │   │   └── parameter_generator.py
+│   │   ├── dynamic_reconfigure-extras.cmake.em
+│   │   ├── dynamic_reconfigure-macros.cmake
+│   │   ├── gendeps
+│   │   └── setup_custom_pythonpath.sh.in
+│   ├── CMakeLists.txt
+│   ├── epydoc.config
+│   ├── include
+│   │   └── dynamic_reconfigure
+│   │       ├── client.h
+│   │       ├── config_init_mutex.h
+│   │       ├── config_tools.h
+│   │       └── server.h
+│   ├── msg
+│   │   ├── BoolParameter.msg
+│   │   ├── ConfigDescription.msg
+│   │   ├── Config.msg
+│   │   ├── DoubleParameter.msg
+│   │   ├── Group.msg
+│   │   ├── GroupState.msg
+│   │   ├── IntParameter.msg
+│   │   ├── ParamDescription.msg
+│   │   ├── SensorLevels.msg
+│   │   └── StrParameter.msg
+│   ├── package.xml
+│   ├── rosdoc.yaml
+│   ├── scripts
+│   │   ├── dynparam
+│   │   └── reconfigure_gui
+│   ├── setup.py
+│   ├── src
+│   │   ├── dynamic_reconfigure
+│   │   │   ├── client.py
+│   │   │   ├── client.pyc
+│   │   │   ├── encoding.py
+│   │   │   ├── encoding.pyc
+│   │   │   ├── __init__.py
+│   │   │   ├── parameter_generator_catkin.py
+│   │   │   ├── parameter_generator_catkin.pyc
+│   │   │   ├── parameter_generator.py
+│   │   │   ├── server.py
+│   │   │   └── server.pyc
+│   │   └── dynamic_reconfigure_config_init_mutex.cpp
+│   ├── srv
+│   │   └── Reconfigure.srv
+│   ├── templates
+│   │   ├── ConfigType.h.template
+│   │   ├── ConfigType.py.template
+│   │   └── GroupClass.h.template
+│   └── test
+│       ├── CMakeLists.txt
+│       ├── ref_server.cpp
+│       ├── simple_python_client_test.py
+│       ├── test_client.cpp
+│       ├── testclient.py
+│       ├── test_cpp_simple_client.launch
+│       ├── test_cpp.xml
+│       ├── test_python_simple_client.launch
+│       ├── testserver2.cpp
+│       ├── testserver.cpp
+│       ├── testserver_multiple_ns.py
+│       └── testserver.py
+├── example2
+│   ├── CMakeLists.txt
+│   ├── example.launch
+│   ├── include
+│   │   └── example2
+│   ├── package.xml
+│   ├── src
+│   ├── turtle.launch
+│   └── turtle.launch.more
+├── geonav_transform
+│   ├── CMakeLists.txt
+│   ├── config
+│   │   └── custom_rosconsole.conf
+│   ├── doc
+│   │   ├── alvinxy.rst
+│   │   ├── conf.py
+│   │   ├── geonav_transform.rst
+│   │   ├── html
+│   │   │   ├── alvinxy.html
+│   │   │   ├── genindex.html
+│   │   │   ├── geonav_transform.html
+│   │   │   ├── index.html
+│   │   │   ├── index-msg.html
+│   │   │   ├── _modules
+│   │   │   │   ├── alvinxy
+│   │   │   │   │   └── alvinxy.html
+│   │   │   │   ├── geonav_transform
+│   │   │   │   │   └── geonav_conversions.html
+│   │   │   │   └── index.html
+│   │   │   ├── modules.html
+│   │   │   ├── msg-styles.css
+│   │   │   ├── objects.inv
+│   │   │   ├── py-modindex.html
+│   │   │   ├── search.html
+│   │   │   ├── searchindex.js
+│   │   │   ├── _sources
+│   │   │   │   ├── alvinxy.txt
+│   │   │   │   ├── geonav_transform.txt
+│   │   │   │   ├── index.txt
+│   │   │   │   └── modules.txt
+│   │   │   └── _static
+│   │   │       ├── ajax-loader.gif
+│   │   │       ├── basic.css
+│   │   │       ├── comment-bright.png
+│   │   │       ├── comment-close.png
+│   │   │       ├── comment.png
+│   │   │       ├── default.css
+│   │   │       ├── doctools.js
+│   │   │       ├── down.png
+│   │   │       ├── down-pressed.png
+│   │   │       ├── file.png
+│   │   │       ├── jquery.js
+│   │   │       ├── minus.png
+│   │   │       ├── plus.png
+│   │   │       ├── pygments.css
+│   │   │       ├── searchtools.js
+│   │   │       ├── sidebar.js
+│   │   │       ├── underscore.js
+│   │   │       ├── up.png
+│   │   │       ├── up-pressed.png
+│   │   │       └── websupport.js
+│   │   ├── index.rst
+│   │   ├── Makefile
+│   │   ├── manifest.yaml
+│   │   └── modules.rst
+│   ├── examples
+│   │   ├── compare_alvin_geonav.py
+│   │   ├── gazebo_elestero_ex.py
+│   │   ├── geonav_alvin_ex.py
+│   │   └── utm_ex.py
+│   ├── include
+│   │   └── geonav_transform
+│   │       ├── geonav_transform.h
+│   │       ├── geonav_utilities.h
+│   │       └── navsat_conversions.h
+│   ├── launch
+│   │   ├── cavr.launch
+│   │   ├── elestero.launch
+│   │   └── geonav_transform.launch
+│   ├── LICENSE
+│   ├── matlab
+│   │   ├── alvinxy
+│   │   │   ├── deg2degmin.m
+│   │   │   ├── degmin2deg.m
+│   │   │   ├── ll2xy2ll_example_at340.xls
+│   │   │   ├── ll2xy.m
+│   │   │   ├── ll2xyv.m
+│   │   │   ├── mdeglat.m
+│   │   │   ├── mdeglon.m
+│   │   │   ├── xy2lldegmin.m
+│   │   │   └── xy2ll.m
+│   │   ├── geonav
+│   │   │   ├── ll2xy.cpp
+│   │   │   ├── ll2xy.m
+│   │   │   ├── make_mex.sh
+│   │   │   ├── xy2ll.cpp
+│   │   │   └── xy2ll.m
+│   │   └── matlab_ex.m
+│   ├── package.xml
+│   ├── README.md
+│   ├── rosdoc.yaml
+│   ├── rviz
+│   │   └── frames.rviz
+│   ├── setup.py
+│   ├── src
+│   │   ├── alvinxy
+│   │   │   ├── alvinxy_example.py
+│   │   │   ├── alvinxy.py
+│   │   │   └── __init__.py
+│   │   ├── geonav_transform
+│   │   │   ├── geonav_conversions.py
+│   │   │   ├── geonav_conversions.pyc
+│   │   │   ├── __init__.py
+│   │   │   └── utmtest.py
+│   │   ├── geonav_transform.cpp
+│   │   ├── geonav_transform_node.cpp
+│   │   └── geonav_utilities.cpp
+│   └── test
+│       └── pubodom.py
+├── kingfisher
+│   ├── kingfisher_description
+│   │   ├── CHANGELOG.rst
+│   │   ├── CMakeLists.txt
+│   │   ├── launch
+│   │   │   └── description.launch
+│   │   ├── meshes
+│   │   │   ├── kingfisher_base.stl
+│   │   │   ├── left_panel.stl
+│   │   │   └── right_panel.stl
+│   │   ├── package.xml
+│   │   └── urdf
+│   │       ├── base.urdf.xacro
+│   │       ├── materials.urdf.xacro
+│   │       ├── parts.urdf.xacro
+│   │       └── standard.urdf.xacro
+│   ├── kingfisher_msgs
+│   │   ├── CHANGELOG.rst
+│   │   ├── CMakeLists.txt
+│   │   ├── msg
+│   │   │   ├── Course.msg
+│   │   │   ├── Drive.msg
+│   │   │   ├── Helm.msg
+│   │   │   ├── Power.msg
+│   │   │   └── Sense.msg
+│   │   ├── package.xml
+│   │   └── README.md
+│   └── README.md
+├── kingfisher_gazebo
+│   ├── aptget_heron.sh
+│   ├── CMakeLists.txt
+│   ├── config
+│   │   ├── custom_rosconsole.conf
+│   │   └── kingfisher_camera.perspective
+│   ├── launch
+│   │   ├── base_gazebo.launch
+│   │   ├── elestero.launch
+│   │   ├── kingfisher_gazebo_worlds.launch
+│   │   ├── kingfisher_microstrain.launch
+│   │   ├── rossc.launch
+│   │   └── spawn_heron.launch
+│   ├── LICENSE
+│   ├── models
+│   │   ├── buoy
+│   │   │   ├── model.config
+│   │   │   └── model.sdf
+│   │   ├── buoy_black
+│   │   │   ├── model.config
+│   │   │   └── model.sdf
+│   │   ├── buoy_blue
+│   │   │   ├── model.config
+│   │   │   └── model.sdf
+│   │   ├── buoy_green
+│   │   │   ├── model.config
+│   │   │   └── model.sdf
+│   │   ├── buoy_red
+│   │   │   ├── model.config
+│   │   │   └── model.sdf
+│   │   ├── buoy_yellow
+│   │   │   ├── model.config
+│   │   │   └── model.sdf
+│   │   ├── delmonte
+│   │   │   ├── delmonte.png
+│   │   │   ├── model.conf
+│   │   │   ├── model.config
+│   │   │   └── model.sdf
+│   │   ├── elestero
+│   │   │   ├── elestero.png
+│   │   │   ├── elestero_squar.xcf
+│   │   │   ├── elestero.xcf
+│   │   │   ├── model.config
+│   │   │   └── model.sdf
+│   │   ├── lake
+│   │   │   ├── model.config
+│   │   │   ├── model.sdf
+│   │   │   └── pondmap.png
+│   │   └── water_plane
+│   │       ├── model.config
+│   │       └── model.sdf
+│   ├── nodes
+│   │   ├── gpsimu2odom.py
+│   │   ├── p3d2nav.py
+│   │   └── rotate_test.py
+│   ├── package.xml
+│   ├── README
+│   ├── urdf
+│   │   ├── base2.urdf.xacro
+│   │   ├── base_gazebo_base.xacro
+│   │   ├── base_gazebo.xacro
+│   │   ├── base_imu_gps_gazebo.xacro
+│   │   ├── base_urdf.xacro
+│   │   ├── base.urdf.xacro
+│   │   ├── gps_gazebo.xacro
+│   │   ├── imu_gazebo.xacro
+│   │   ├── kingfisher_camera.xacro
+│   │   ├── kingfisher_urdf_base.xacro
+│   │   ├── kingfisher_urdf_camera.xacro
+│   │   ├── kingfisher_urdf.xacro
+│   │   ├── p3d_gazebo.xacro
+│   │   ├── parts.mininertia.urdf.xacro
+│   │   └── usv_gazebo.xacro
+│   └── worlds
+│       ├── delmonte.world
+│       ├── elestero_potentials.world
+│       ├── elestero.world
+│       ├── empty.world
+│       ├── empty_world.launch
+│       ├── lake_buoy.world
+│       ├── lake.world
+│       ├── mypond.world
+│       └── pond.world
+├── kingfisher_utils
+│   ├── CMakeLists.txt
+│   ├── config
+│   │   ├── custom_rosconsole.conf
+│   │   ├── kingfisher_joy_course.yaml
+│   │   ├── kingfisher_joy.yaml
+│   │   └── kingfisher_tank.yaml
+│   ├── launch
+│   │   ├── kingfisher_joycourse.launch
+│   │   ├── kingfisher_joydrive.launch
+│   │   ├── kingfisher_tankdrive.launch
+│   │   └── rviz_bagplay.launch
+│   ├── LICENSE
+│   ├── package.xml
+│   └── scripts
+│       ├── get_data.sh
+│       ├── kf_connect_wifi.sh
+│       ├── twist2drive.py
+│       ├── twist2drive.py~
+│       └── twist2drive_tank.py
+├── microstrain_3dm_gx5_45
+│   ├── CMakeLists.txt
+│   ├── config
+│   │   └── custom_rosconsole.conf
+│   ├── include
+│   │   ├── microstrain_3dm_gx5_45
+│   │   │   ├── GX4-45_Test.h
+│   │   │   ├── microstrain_3dm_gx5_45.h
+│   │   │   └── mip_sdk_user_functions.h
+│   │   └── mip_sdk_user_functions.h.orig
+│   ├── launch
+│   │   ├── microstrain_25.launch
+│   │   ├── microstrain_kf.launch
+│   │   ├── microstrain.launch
+│   │   └── microstrain_pioneer.launch
+│   ├── LICENSE
+│   ├── mainpage.dox
+│   ├── MIPSDK
+│   │   └── C
+│   │       ├── Documentation
+│   │       │   ├── html
+│   │       │   │   ├── annotated.html
+│   │       │   │   ├── bc_s.png
+│   │       │   │   ├── byteswap__utilities_8c.html
+│   │       │   │   ├── byteswap__utilities_8h.html
+│   │       │   │   ├── byteswap__utilities_8h_source.html
+│   │       │   │   ├── classes.html
+│   │       │   │   ├── closed.png
+│   │       │   │   ├── doxygen.css
+│   │       │   │   ├── doxygen.png
+│   │       │   │   ├── _examples_2_windows_2_g_x3-45_2_g_x3__45___test_2mip__sdk__user__functions_8h_source.html
+│   │       │   │   ├── files.html
+│   │       │   │   ├── globals_0x62.html
+│   │       │   │   ├── globals_0x6d.html
+│   │       │   │   ├── globals_0x72.html
+│   │       │   │   ├── globals_defs.html
+│   │       │   │   ├── globals_func_0x62.html
+│   │       │   │   ├── globals_func_0x6d.html
+│   │       │   │   ├── globals_func_0x72.html
+│   │       │   │   ├── globals_func.html
+│   │       │   │   ├── globals.html
+│   │       │   │   ├── globals_type.html
+│   │       │   │   ├── index.html
+│   │       │   │   ├── jquery.js
+│   │       │   │   ├── _library_2_user_01_functions_2mip__sdk__user__functions_8h_source.html
+│   │       │   │   ├── mainpage_8h.html
+│   │       │   │   ├── mainpage_8h_source.html
+│   │       │   │   ├── mip_8c.html
+│   │       │   │   ├── mip_8h.html
+│   │       │   │   ├── mip_8h_source.html
+│   │       │   │   ├── mip__gx3__35_8h.html
+│   │       │   │   ├── mip__gx3__35_8h_source.html
+│   │       │   │   ├── mip__gx3__45_8h.html
+│   │       │   │   ├── mip__gx3__45_8h_source.html
+│   │       │   │   ├── mip__sdk__3dm_8c.html
+│   │       │   │   ├── mip__sdk__3dm_8h.html
+│   │       │   │   ├── mip__sdk__3dm_8h_source.html
+│   │       │   │   ├── mip__sdk_8h.html
+│   │       │   │   ├── mip__sdk_8h_source.html
+│   │       │   │   ├── mip__sdk__ahrs_8c.html
+│   │       │   │   ├── mip__sdk__ahrs_8h.html
+│   │       │   │   ├── mip__sdk__ahrs_8h_source.html
+│   │       │   │   ├── mip__sdk__base_8c.html
+│   │       │   │   ├── mip__sdk__base_8h.html
+│   │       │   │   ├── mip__sdk__base_8h_source.html
+│   │       │   │   ├── mip__sdk__config_8h.html
+│   │       │   │   ├── mip__sdk__config_8h_source.html
+│   │       │   │   ├── mip__sdk__gps_8c.html
+│   │       │   │   ├── mip__sdk__gps_8h.html
+│   │       │   │   ├── mip__sdk__gps_8h_source.html
+│   │       │   │   ├── mip__sdk__interface_8h.html
+│   │       │   │   ├── mip__sdk__interface_8h_source.html
+│   │       │   │   ├── mip__sdk__nav_8c.html
+│   │       │   │   ├── mip__sdk__nav_8h.html
+│   │       │   │   ├── mip__sdk__nav_8h_source.html
+│   │       │   │   ├── mip__sdk__system_8c.html
+│   │       │   │   ├── mip__sdk__system_8h.html
+│   │       │   │   ├── mip__sdk__system_8h_source.html
+│   │       │   │   ├── mip__sdk__user__functions_8c.html
+│   │       │   │   ├── mip__sdk__user__functions_8h.html
+│   │       │   │   ├── mip__sdk__user__functions_8h_source.html
+│   │       │   │   ├── mip__types_8h.html
+│   │       │   │   ├── mip__types_8h_source.html
+│   │       │   │   ├── nav_f.png
+│   │       │   │   ├── nav_h.png
+│   │       │   │   ├── open.png
+│   │       │   │   ├── ring__buffer_8c.html
+│   │       │   │   ├── ring__buffer_8h.html
+│   │       │   │   ├── ring__buffer_8h_source.html
+│   │       │   │   ├── search
+│   │       │   │   │   ├── all_5f.html
+│   │       │   │   │   ├── all_62.html
+│   │       │   │   │   ├── all_67.html
+│   │       │   │   │   ├── all_6d.html
+│   │       │   │   │   ├── all_72.html
+│   │       │   │   │   ├── all_73.html
+│   │       │   │   │   ├── classes_5f.html
+│   │       │   │   │   ├── close.png
+│   │       │   │   │   ├── defines_67.html
+│   │       │   │   │   ├── defines_6d.html
+│   │       │   │   │   ├── defines_72.html
+│   │       │   │   │   ├── files_62.html
+│   │       │   │   │   ├── files_6d.html
+│   │       │   │   │   ├── files_72.html
+│   │       │   │   │   ├── functions_5f.html
+│   │       │   │   │   ├── functions_62.html
+│   │       │   │   │   ├── functions_6d.html
+│   │       │   │   │   ├── functions_72.html
+│   │       │   │   │   ├── mag_sel.png
+│   │       │   │   │   ├── nomatches.html
+│   │       │   │   │   ├── search.css
+│   │       │   │   │   ├── search.js
+│   │       │   │   │   ├── search_l.png
+│   │       │   │   │   ├── search_m.png
+│   │       │   │   │   ├── search_r.png
+│   │       │   │   │   ├── typedefs_6d.html
+│   │       │   │   │   └── typedefs_73.html
+│   │       │   │   ├── struct__base__device__info__field.html
+│   │       │   │   ├── struct__global__ack__nack__field.html
+│   │       │   │   ├── struct__gx3__35__basic__status__field.html
+│   │       │   │   ├── struct__gx3__35__diagnostic__status__field.html
+│   │       │   │   ├── struct__gx3__45__basic__status__field.html
+│   │       │   │   ├── struct__gx3__45__diagnostic__status__field.html
+│   │       │   │   ├── struct__mip__ahrs__1pps__timestamp.html
+│   │       │   │   ├── struct__mip__ahrs__delta__theta.html
+│   │       │   │   ├── struct__mip__ahrs__delta__velocity.html
+│   │       │   │   ├── struct__mip__ahrs__euler__angles.html
+│   │       │   │   ├── struct__mip__ahrs__gps__timestamp.html
+│   │       │   │   ├── struct__mip__ahrs__internal__timestamp.html
+│   │       │   │   ├── struct__mip__ahrs__north__vector.html
+│   │       │   │   ├── struct__mip__ahrs__orientation__matrix.html
+│   │       │   │   ├── struct__mip__ahrs__orientation__update__matrix.html
+│   │       │   │   ├── struct__mip__ahrs__quaternion.html
+│   │       │   │   ├── struct__mip__ahrs__raw__accel.html
+│   │       │   │   ├── struct__mip__ahrs__raw__gyro.html
+│   │       │   │   ├── struct__mip__ahrs__raw__mag.html
+│   │       │   │   ├── struct__mip__ahrs__raw__temp.html
+│   │       │   │   ├── struct__mip__ahrs__scaled__accel.html
+│   │       │   │   ├── struct__mip__ahrs__scaled__gyro.html
+│   │       │   │   ├── struct__mip__ahrs__scaled__mag.html
+│   │       │   │   ├── struct__mip__ahrs__signal__settings.html
+│   │       │   │   ├── struct__mip__ahrs__up__vector.html
+│   │       │   │   ├── struct__mip__ecef__vel.html
+│   │       │   │   ├── struct__mip__field__header.html
+│   │       │   │   ├── struct__mip__fix__info.html
+│   │       │   │   ├── struct__mip__gps__clock__info.html
+│   │       │   │   ├── struct__mip__gps__dop.html
+│   │       │   │   ├── struct__mip__gps__ecef__pos.html
+│   │       │   │   ├── struct__mip__gps__hw__status.html
+│   │       │   │   ├── struct__mip__gps__llh__pos.html
+│   │       │   │   ├── struct__mip__gps__ned__vel.html
+│   │       │   │   ├── struct__mip__gps__sv__info.html
+│   │       │   │   ├── struct__mip__gps__time.html
+│   │       │   │   ├── struct__mip__gps__utc__time.html
+│   │       │   │   ├── struct__mip__header.html
+│   │       │   │   ├── struct__mip__interface.html
+│   │       │   │   ├── struct__mip__nav__accel__bias.html
+│   │       │   │   ├── struct__mip__nav__accel__bias__uncertainty.html
+│   │       │   │   ├── struct__mip__nav__acceleration.html
+│   │       │   │   ├── struct__mip__nav__angular__rate.html
+│   │       │   │   ├── struct__mip__nav__attitude__dcm.html
+│   │       │   │   ├── struct__mip__nav__attitude__euler__angles.html
+│   │       │   │   ├── struct__mip__nav__attitude__quaternion.html
+│   │       │   │   ├── struct__mip__nav__euler__attitude__uncertainty.html
+│   │       │   │   ├── struct__mip__nav__external__gps__update__command.html
+│   │       │   │   ├── struct__mip__nav__external__heading__update__command.html
+│   │       │   │   ├── struct__mip__nav__gravity__vector.html
+│   │       │   │   ├── struct__mip__nav__gyro__bias.html
+│   │       │   │   ├── struct__mip__nav__gyro__bias__uncertainty.html
+│   │       │   │   ├── struct__mip__nav__heading__update__state.html
+│   │       │   │   ├── struct__mip__nav__llh__pos.html
+│   │       │   │   ├── struct__mip__nav__llh__pos__uncertainty.html
+│   │       │   │   ├── struct__mip__nav__magnetic__model.html
+│   │       │   │   ├── struct__mip__nav__ned__velocity.html
+│   │       │   │   ├── struct__mip__nav__ned__vel__uncertainty.html
+│   │       │   │   ├── struct__mip__nav__quaternion__attitude__uncertainty.html
+│   │       │   │   ├── struct__mip__nav__status.html
+│   │       │   │   ├── struct__mip__nav__timestamp.html
+│   │       │   │   ├── struct__mip__nav__wgs84__gravity__mag.html
+│   │       │   │   ├── struct__ring__buffer.html
+│   │       │   │   ├── tab_a.png
+│   │       │   │   ├── tab_b.png
+│   │       │   │   ├── tab_h.png
+│   │       │   │   ├── tabs.css
+│   │       │   │   └── tab_s.png
+│   │       │   └── MIP SDK Users Guide.docx
+│   │       ├── Examples
+│   │       │   ├── Linux
+│   │       │   │   ├── GX3-35
+│   │       │   │   │   └── GX3_35_Test
+│   │       │   │   │       ├── GX3_35_Test.c
+│   │       │   │   │       ├── Makefile
+│   │       │   │   │       ├── mip_sdk_user_functions.c
+│   │       │   │   │       └── mip_sdk_user_functions.h
+│   │       │   │   ├── GX3-45
+│   │       │   │   │   └── GX3_45_Test
+│   │       │   │   │       ├── GX3_45_Test.c
+│   │       │   │   │       ├── Makefile
+│   │       │   │   │       ├── mip_sdk_user_functions.c
+│   │       │   │   │       └── mip_sdk_user_functions.h
+│   │       │   │   ├── GX4-15
+│   │       │   │   │   └── GX4_15_Test
+│   │       │   │   │       ├── GX4-15_Test.c
+│   │       │   │   │       ├── GX4-15_Test.h
+│   │       │   │   │       ├── Makefile
+│   │       │   │   │       ├── mip_sdk_user_functions.c
+│   │       │   │   │       └── mip_sdk_user_functions.h
+│   │       │   │   ├── GX4-25
+│   │       │   │   │   └── GX4_25_Test
+│   │       │   │   │       ├── GX4-25_Test.c
+│   │       │   │   │       ├── GX4-25_Test.h
+│   │       │   │   │       ├── Makefile
+│   │       │   │   │       ├── mip_sdk_user_functions.c
+│   │       │   │   │       └── mip_sdk_user_functions.h
+│   │       │   │   ├── GX4-45
+│   │       │   │   │   └── GX4_45_Test
+│   │       │   │   │       ├── GX4-45_Test.c
+│   │       │   │   │       ├── GX4-45_Test.h
+│   │       │   │   │       ├── Makefile
+│   │       │   │   │       ├── mip_sdk_user_functions.c
+│   │       │   │   │       └── mip_sdk_user_functions.h
+│   │       │   │   └── RQ1
+│   │       │   │       └── RQ1_Test
+│   │       │   │           ├── Makefile
+│   │       │   │           ├── mip_sdk_user_functions.c
+│   │       │   │           ├── mip_sdk_user_functions.h
+│   │       │   │           ├── RQ1_Test.c
+│   │       │   │           └── RQ1_Test.h
+│   │       │   └── Windows
+│   │       │       ├── GX3-35
+│   │       │       │   └── GX3_35_Test
+│   │       │       │       ├── GX3_35_Test.c
+│   │       │       │       ├── GX3_35_Test.sln
+│   │       │       │       ├── GX3_35_Test.suo
+│   │       │       │       ├── GX3_35_Test.vcproj
+│   │       │       │       ├── mip_sdk_user_functions.c
+│   │       │       │       ├── mip_sdk_user_functions.h
+│   │       │       │       └── ReadMe.txt
+│   │       │       ├── GX3-45
+│   │       │       │   └── GX3_45_Test
+│   │       │       │       ├── GX3_45_Test.c
+│   │       │       │       ├── GX3_45_Test.sln
+│   │       │       │       ├── GX3_45_Test.suo
+│   │       │       │       ├── GX3_45_Test.vcproj
+│   │       │       │       ├── mip_sdk_user_functions.c
+│   │       │       │       ├── mip_sdk_user_functions.h
+│   │       │       │       └── ReadMe.txt
+│   │       │       ├── GX4-15
+│   │       │       │   └── GX4-15_Test
+│   │       │       │       ├── GX4-15_Test.c
+│   │       │       │       ├── GX4-15_Test.h
+│   │       │       │       ├── GX4-15_Test.sln
+│   │       │       │       ├── GX4-15_Test.suo
+│   │       │       │       ├── GX4-15_Test.vcxproj
+│   │       │       │       ├── GX4-15_Test.vcxproj.filters
+│   │       │       │       ├── GX4-15_Test.vcxproj.user
+│   │       │       │       ├── mip_sdk_user_functions.c
+│   │       │       │       ├── mip_sdk_user_functions.h
+│   │       │       │       └── ReadMe.txt
+│   │       │       ├── GX4-25
+│   │       │       │   └── GX4-25_Test
+│   │       │       │       ├── GX4-25_Test.c
+│   │       │       │       ├── GX4-25_Test.h
+│   │       │       │       ├── GX4-25_Test.sln
+│   │       │       │       ├── GX4-25_Test.suo
+│   │       │       │       ├── GX4-25_Test.vcxproj
+│   │       │       │       ├── GX4-25_Test.vcxproj.filters
+│   │       │       │       ├── GX4-25_Test.vcxproj.user
+│   │       │       │       ├── mip_sdk_user_functions.c
+│   │       │       │       ├── mip_sdk_user_functions.h
+│   │       │       │       └── ReadMe.txt
+│   │       │       ├── GX4-45
+│   │       │       │   └── GX4-45_Test
+│   │       │       │       ├── GX4-45_Test.c
+│   │       │       │       ├── GX4-45_Test.h
+│   │       │       │       ├── GX4-45_Test.opensdf
+│   │       │       │       ├── GX4-45_Test.sln
+│   │       │       │       ├── GX4-45_Test.suo
+│   │       │       │       ├── GX4-45_Test.vcxproj
+│   │       │       │       ├── GX4-45_Test.vcxproj.filters
+│   │       │       │       ├── GX4-45_Test.vcxproj.user
+│   │       │       │       ├── mip_sdk_user_functions.c
+│   │       │       │       ├── mip_sdk_user_functions.h
+│   │       │       │       └── ReadMe.txt
+│   │       │       └── RQ1
+│   │       │           └── RQ1_Test
+│   │       │               ├── mip_sdk_user_functions.c
+│   │       │               ├── mip_sdk_user_functions.h
+│   │       │               ├── ReadMe.txt
+│   │       │               ├── RQ1_Test.c
+│   │       │               ├── RQ1_Test.h
+│   │       │               ├── RQ1_Test.sln
+│   │       │               ├── RQ1_Test.suo
+│   │       │               ├── RQ1_Test.vcxproj
+│   │       │               ├── RQ1_Test.vcxproj.filters
+│   │       │               └── RQ1_Test.vcxproj.user
+│   │       ├── Library
+│   │       │   ├── Include
+│   │       │   │   ├── mainpage.h
+│   │       │   │   ├── mip_gx3_35.h
+│   │       │   │   ├── mip_gx3_45.h
+│   │       │   │   ├── mip_gx4_15.h
+│   │       │   │   ├── mip_gx4_25.h
+│   │       │   │   ├── mip_gx4_45.h
+│   │       │   │   ├── mip_gx4_imu.h
+│   │       │   │   ├── mip.h
+│   │       │   │   ├── mip_rq1.h
+│   │       │   │   ├── mip_rq1_imu.h
+│   │       │   │   ├── mip_sdk_3dm.h
+│   │       │   │   ├── mip_sdk_ahrs.h
+│   │       │   │   ├── mip_sdk_base.h
+│   │       │   │   ├── mip_sdk_config.h
+│   │       │   │   ├── mip_sdk_filter.h
+│   │       │   │   ├── mip_sdk_gps.h
+│   │       │   │   ├── mip_sdk.h
+│   │       │   │   ├── mip_sdk_interface.h
+│   │       │   │   ├── mip_sdk_system.h
+│   │       │   │   ├── mip_types.h
+│   │       │   │   └── ring_buffer.h
+│   │       │   ├── Source
+│   │       │   │   ├── mip.c
+│   │       │   │   ├── mip_sdk_3dm.c
+│   │       │   │   ├── mip_sdk_ahrs.c
+│   │       │   │   ├── mip_sdk_base.c
+│   │       │   │   ├── mip_sdk_filter.c
+│   │       │   │   ├── mip_sdk_gps.c
+│   │       │   │   ├── mip_sdk_inteface.c
+│   │       │   │   ├── mip_sdk_system.c
+│   │       │   │   └── ring_buffer.c
+│   │       │   └── User Functions
+│   │       │       ├── mip_sdk_user_functions.c
+│   │       │       └── mip_sdk_user_functions.h
+│   │       └── Utilities
+│   │           ├── Include
+│   │           │   └── byteswap_utilities.h
+│   │           └── Source
+│   │               └── byteswap_utilities.c
+│   ├── package.xml
+│   ├── README.md
+│   ├── rosdoc.yaml
+│   ├── src
+│   │   ├── GX4-45_Test.c
+│   │   ├── GX4-45_Test.cpp
+│   │   ├── microstrain_3dm_gx5_45.cpp
+│   │   ├── microstrain_3dm_gx5_45_node.cpp
+│   │   ├── mip_sdk_user_functions.c
+│   │   ├── mip_sdk_user_functions.c.orig
+│   │   └── mip_sdk_user_functions.cpp
+│   ├── udev
+│   │   └── 99-microstrain.rules
+│   └── wiki_src.txt
+├── rossc
+│   ├── cfg
+│   │   ├── TwistDynamic.cfg
+│   │   └── YawDynamic.cfg
+│   ├── CMakeLists.txt
+│   ├── config
+│   │   └── twist_pid.yaml
+│   ├── launch
+│   │   ├── course_control.launch
+│   │   └── timer.launch
+│   ├── msg
+│   │   └── PidDiagnose.msg
+│   ├── nodes
+│   │   ├── pid_control.py
+│   │   ├── pypid.py
+│   │   ├── pypid.pyc
+│   │   └── speed_test_eval.py
+│   ├── package.xml
+│   ├── README.md
+│   └── utils
+│       └── plot_usv.py
+├── rossc_a2
+│   ├── CMakeLists.txt
+│   ├── package.xml
+│   ├── README.md
+│   ├── scripts
+│   │   └── usv_box.sh
+│   └── tree.txt
+├── rossc_a3
+│   ├── images
+│   │   ├── cmd_drive.png
+│   │   ├── euler.png
+│   │   ├── position.png
+│   │   └── quaternion.png
+│   └── README.md
+├── rossc_a4
+│   ├── CMakeLists.txt
+│   ├── images
+│   │   └── rosgraph.png
+│   ├── launch
+│   │   └── course_control.launch
+│   └── package.xml
+├── rossc_a5
+│   ├── CMakeLists.txt
+│   ├── package.xml
+│   ├── README.md
+│   ├── scripts
+│   │   └── go.sh
+│   ├── timer.bag
+│   ├── timer_go_script.bag
+│   ├── timer_joystick.bag
+│   └── timer_optimized.bag
+├── rqt_reconfigure
+│   ├── CHANGELOG.rst
+│   ├── CMakeLists.txt
+│   ├── package.xml
+│   ├── plugin.xml
+│   ├── resource
+│   │   ├── editor_bool.ui
+│   │   ├── editor_enum.ui
+│   │   ├── editor_number.ui
+│   │   ├── editor_string.ui
+│   │   ├── node_selector.ui
+│   │   ├── paramedit_pane.ui
+│   │   ├── param_main.ui
+│   │   ├── param_timeline.ui
+│   │   ├── singlenode_parameditor.ui
+│   │   └── text_filter_widget.ui
+│   ├── scripts
+│   │   └── rqt_reconfigure
+│   ├── setup.py
+│   ├── src
+│   │   └── rqt_reconfigure
+│   │       ├── dynreconf_client_widget.py
+│   │       ├── dynreconf_client_widget.pyc
+│   │       ├── filter_children_model.py
+│   │       ├── filter_children_model.pyc
+│   │       ├── __init__.py
+│   │       ├── node_selector_widget.py
+│   │       ├── node_selector_widget.pyc
+│   │       ├── param_editors.py
+│   │       ├── param_editors.pyc
+│   │       ├── paramedit_widget.py
+│   │       ├── paramedit_widget.pyc
+│   │       ├── param_groups.py
+│   │       ├── param_groups.pyc
+│   │       ├── param_plugin.py
+│   │       ├── param_plugin.pyc
+│   │       ├── param_updater.py
+│   │       ├── param_updater.pyc
+│   │       ├── param_widget.py
+│   │       ├── param_widget.pyc
+│   │       ├── text_filter.py
+│   │       ├── text_filter.pyc
+│   │       ├── text_filter_widget.py
+│   │       ├── text_filter_widget.pyc
+│   │       ├── treenode_item_model.py
+│   │       ├── treenode_item_model.pyc
+│   │       ├── treenode_qstditem.py
+│   │       ├── treenode_qstditem.pyc
+│   │       └── treenode_status.py
+│   └── test
+│       ├── __init__.py
+│       ├── test_text_filter.py
+│       └── test_treenode_qstditem.py
+└── usv_gazebo_plugins
+    ├── CMakeLists.txt
+    ├── include
+    │   └── usv_gazebo_plugins
+    │       └── usv_gazebo_dynamics_plugin.h
+    ├── LICENSE
+    ├── mainpage.dox
+    ├── package.xml
+    ├── README.md
+    ├── rosdoc.yaml
+    ├── src
+    │   └── usv_gazebo_dynamics_plugin.cpp
+    └── urdf
+        └── usv_gazebo_dynamics_plugin.xacro
+
+147 directories, 664 files
